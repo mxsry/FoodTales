@@ -1,0 +1,149 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Geologica', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+.header {
+    background: #2c2c2c;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a:hover {
+    color: #d4a574;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    background: white;
+    margin-top: 80px; /* Add space for fixed header */
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background: #2c2c2c;
+    color: #ccc;
+    padding: 40px 0;
+    margin-top: auto; /* Push footer to bottom */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.footer-left p {
+    line-height: 1.6;
+    color: #aaa;
+}
+
+.footer-right {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column h3 {
+    color: #ccc;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-column a {
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #d4a574;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 0 15px;
+    }
+    
+    .nav-bar ul {
+        gap: 20px;
+    }
+    
+    .main-content {
+        margin-top: 70px; /* Adjust for smaller header on mobile */
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-right {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
