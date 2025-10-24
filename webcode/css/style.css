@@ -19,7 +19,7 @@ body {
 /* Header Styles */
 .header {
     background: #2c2c2c;
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -57,7 +57,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 200;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
@@ -66,9 +66,10 @@ body {
 
 .nav-bar a:hover {
     color: #d4a574;
-    border-bottom: 2px solid #d4a574;
+    font-weight: 500;
+    /* Reminder: Add border bottom later
+        border-bottom: 2px solid #d4a574;*/
 }
-
 /* Main Content */
 .main-content {
     flex: 1;
@@ -112,7 +113,7 @@ body {
 .footer-column h3 {
     color: #ccc;
     margin-bottom: 15px;
-    font-size: 1.1rem;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -128,7 +129,6 @@ body {
     color: #d4a574;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .header-content {
         padding: 0 15px;
@@ -139,7 +139,7 @@ body {
     }
     
     .main-content {
-        margin-top: 70px; /* Adjust for smaller header on mobile */
+        margin-top: 70px;
     }
     
     .footer-content {
