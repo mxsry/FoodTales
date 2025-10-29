@@ -1,0 +1,141 @@
+/* Create Post Page */
+.main-content{
+    margin-top: 60px;
+    padding: 0;
+}
+.create-hero{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.create-hero-image{
+    position: relative;
+}
+
+.hero-bg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.create-hero-overlay{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+    display: flex;
+    align-items: center;
+}
+
+.create-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.hero-title{
+    font-family: 'Geologica', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.hero-subtitle{
+    color: #eaeaea;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Form Section */
+.create-form-section{
+    background: #ffffff;
+    padding: 40px 0 60px;
+}
+
+.form-label{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.input{
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background: #f7f9fb;
+    padding: 10px 14px;
+}
+
+.textarea{
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background: #f7f9fb;
+    padding: 14px;
+    resize: none;
+}
+
+.create-form-box{
+    display: flex;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+}
+
+.cf-btn{
+    border: none;
+    background: transparent;
+    color: #333;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.cf-btn:hover{
+    background: #e6e6e6;
+}
+
+.create-form-actions{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.btn-cancel{
+    background: transparent;
+    color: #000;
+    border: 1px solid #8a8a8a;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.btn-cancel:hover{
+    opacity: 0.7;
+    transition: all 0.6s  ease;
+}
+
+.btn-post{
+    background: #d4a574;
+    color: #2c2c2c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.btn-post:hover{
+    background: #d4a574;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .hero-bg{ height: 220px; }
+    .hero-title{ font-size: 36px; }
+}

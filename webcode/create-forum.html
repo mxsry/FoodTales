@@ -49,6 +49,64 @@
     <!-- Main Content Area - This will be filled by other pages -->
     <main class="main-content">
         <!-- Content will be added by individual pages -->
+        <section class="create-hero">
+            <div class="create-hero-image">
+                <img src="assets/banhxeo.png" alt="Vietnamese Banh Xeo" class="hero-bg">
+                <div class="create-hero-overlay">
+                    <div class="create-container">
+                        <h1 class="hero-title">Create Post</h1>
+                        <p class="hero-subtitle">Share your thought with us</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="create-form-section">
+            <div class="create-container">
+                <div class="mb-3">
+                    <label for="post-title" class="form-label">Titles</label>
+                    <input id="post-title" class="input form-control" type="text" placeholder="Title here!">
+                </div>
+
+                <div class="mb-2">
+                    <label for="post-details" class="form-label">Post Details</label>
+                    <div class="position-relative">
+                        <textarea id="post-details" class="textarea form-control" rows="8" placeholder="Share more about your experience/recipes/story about foods"></textarea>
+                        <div class="create-form-box">
+                            <button class="cf-btn" type="button" aria-label="Add image">
+                                <iconify-icon icon="mdi:image-plus"></iconify-icon>
+                            </button>
+                            <button class="cf-btn" type="button" aria-label="Add file">
+                                <iconify-icon icon="mdi:file-upload-outline"></iconify-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="create-form-actions">
+                    <button type="button" class="btn-cancel" data-bs-toggle="modal" data-bs-target="#exampleModal">Cancel</button>
+                    <button type="button" class="btn-post" data-bs-toggle="modal" data-bs-target="#exampleModal">Post</button>
+                </div>
+            </div>
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Featured Post Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                    <div class="modal-body">
+                        <p>This is where your detailed content goes. You can expand on your post here!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer -->

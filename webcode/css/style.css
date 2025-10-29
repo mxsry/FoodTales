@@ -76,6 +76,24 @@ body {
     margin-top: 80px; /* Add space for fixed header */
     padding: 20px;
 }
+/* Configure Modal Close Button*/
+.btn-modal {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    min-width: 150px;
+    background: #d4a574;
+    color: #2c2c2c;
+    border: none;
+}
+
+.btn-modal:hover{
+    background: #c1965f;
+    color: white;
+}
 
 /* Footer */
 .footer {
