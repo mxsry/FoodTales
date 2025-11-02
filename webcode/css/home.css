@@ -37,7 +37,7 @@
 }
 
 .hero-title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Geologica', sans-serif;
     font-size: 72px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -57,7 +57,10 @@
     flex-wrap: wrap;
 }
 
-.btn {
+.btn-primary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
     padding: 15px 30px;
     font-size: 14px;
     font-weight: 400;
@@ -66,12 +69,6 @@
     transition: all 0.3s ease;
     display: inline-block;
     min-width: 150px;
-}
-
-.btn-primary {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
 }
 
 .btn-primary:hover {
@@ -84,6 +81,14 @@
     background: #d4a574;
     color: #2c2c2c;
     border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    min-width: 150px;
 }
 
 .btn-secondary:hover {
@@ -146,7 +151,31 @@
     background-position: center;
 }
 
-.regular-image {
+.regular-image1 {
+    height: 200px;
+    /* TODO: Add regular post background image here */
+    background-color: #e0e0e0; /* Temporary placeholder */
+    background-size: cover;
+    background-position: center;
+}
+
+.regular-image2 {
+    height: 200px;
+    /* TODO: Add regular post background image here */
+    background-color: #e0e0e0; /* Temporary placeholder */
+    background-size: cover;
+    background-position: center;
+}
+
+.regular-image3 {
+    height: 200px;
+    /* TODO: Add regular post background image here */
+    background-color: #e0e0e0; /* Temporary placeholder */
+    background-size: cover;
+    background-position: center;
+}
+
+.regular-image4 {
     height: 200px;
     /* TODO: Add regular post background image here */
     background-color: #e0e0e0; /* Temporary placeholder */
@@ -231,9 +260,7 @@
     color: #c1965f;
 }
 
-/* Responsive Design for Home Page */
 @media (max-width: 768px) {
-    /* Hero Section Mobile */
     .hero-section {
         height: 100vh;
     }
@@ -251,11 +278,6 @@
         align-items: center;
     }
     
-    .btn {
-        width: 200px;
-    }
-    
-    /* Posts Grid Mobile */
     .posts-grid {
         grid-template-columns: 1fr;
         gap: 20px;

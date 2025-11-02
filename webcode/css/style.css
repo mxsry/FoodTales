@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-/* Header Styles */
+
 .header {
     background: #2c2c2c;
     padding: 10px 0;
@@ -45,7 +44,7 @@ body {
     align-items: left;
 }
 
-/* Navigation Bar */
+
 .nav-bar ul {
     display: flex;
     list-style: none;
@@ -73,10 +72,11 @@ body {
 .main-content {
     flex: 1;
     background: white;
-    margin-top: 80px; /* Add space for fixed header */
+    margin-top: 80px; 
     padding: 20px;
 }
-/* Configure Modal Close Button*/
+
+
 .btn-modal {
     padding: 10px 10px;
     font-size: 14px;
@@ -95,12 +95,12 @@ body {
     color: white;
 }
 
-/* Footer */
+
 .footer {
     background: #2c2c2c;
     color: #ccc;
     padding: 40px 0;
-    margin-top: auto; /* Push footer to bottom */
+    margin-top: auto; 
 }
 
 .footer-content {

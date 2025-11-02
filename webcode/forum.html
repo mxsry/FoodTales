@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/forum.css">
 </head>
 <body>
-    <div style="height: 1000px;"></div>
     <!-- Header Section -->
     <header class="header">
         <div class="header-content">
@@ -50,6 +49,44 @@
     <!-- Main Content Area - This will be filled by other pages -->
     <main class="main-content">
         <!-- Content will be added by individual pages -->
+        <section class="forum-hero">
+            <img src="assets/banhxeo.png" class="forum-hero-bg">
+            <div class="forum-hero-overlay">
+                <div class="container">
+                    <div class="row forum-row">
+                        <div class="col-12 col-lg-9 forum-cols">
+                            <h1 class="forum-title"> Forum </h1>
+                            <form class="forum-search" role="search">
+                                <div class="input-group forum-search-group">
+                                    <span class="input-group-text forum-search-input">
+                                        <iconify-icon icon="material-symbols:search-rounded"></iconify-icon>
+                                    </span>
+                                    <input type="search" class="form-control forum-input" placeholder="Looking for the discussion?" aria-label="Search forum">
+                                    <button class="forum-search-btn" type="submit">
+                                        <iconify-icon icon="material-symbols:arrow-forward-rounded"></iconify-icon>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="forum-toolbar-section">
+            <div class="forum-toolbar-container">
+                <div class="forum-toolbar">
+                    <ul class="forum-tabs">
+                        <li><a href="#" class="active">Recently Post</a></li>
+                        <li><a href="#">Most Popular</a></li>
+                        <li><a href="#">Alphabetically</a></li>
+                        <li><a href="#">Country</a></li>
+                    </ul>
+                    <a href="create-forum.html" class="btn-forum-new">Create Forum</a>
+                </div>
+                <hr class="forum-separator">
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
