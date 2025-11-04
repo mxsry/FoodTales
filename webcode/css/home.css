@@ -92,7 +92,7 @@
 }
 
 .btn-secondary:hover {
-    background: #c1965f;
+    background: #d4a574;
     color: white;
 }
 
@@ -258,6 +258,7 @@
 
 .read-link:hover {
     color: #c1965f;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

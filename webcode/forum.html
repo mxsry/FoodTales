@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum - FoodTales</title>
-    <!-- Icon -->
+
     <link rel="icon" href="assets/page-icon.png">
     
-    <!-- Bootstrap 5 CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
-    <!-- Google Fonts - Geologica -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Google Fonts - Roboto Slab -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     
-    <!-- Iconify Icons -->
+
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     
-    <!-- Custom CSS -->
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/forum.css">
 </head>
 <body>
-    <!-- Header Section -->
+
     <header class="header">
         <div class="header-content">
-            <!-- Logo -->
+
             <div class="logo">
                 <h1>FoodTales</h1>
             </div>
             
-            <!-- Navigation Bar -->
+
             <nav class="nav-bar">
                 <ul>
                     <li><a href="home.html">Home</a></li>
@@ -46,9 +46,8 @@
         </div>
     </header>
 
-    <!-- Main Content Area - This will be filled by other pages -->
+
     <main class="main-content">
-        <!-- Content will be added by individual pages -->
         <section class="forum-hero">
             <img src="assets/banhxeo.png" class="forum-hero-bg">
             <div class="forum-hero-overlay">
@@ -73,23 +72,182 @@
             </div>
         </section>
 
-         <section class="forum-toolbar-section">
-            <div class="forum-toolbar-container">
-                <div class="forum-toolbar">
-                    <ul class="forum-tabs">
-                        <li><a href="#" class="active">Recently Post</a></li>
-                        <li><a href="#">Most Popular</a></li>
-                        <li><a href="#">Alphabetically</a></li>
-                        <li><a href="#">Country</a></li>
+        <section class="forum-sort-bar">
+            <div class="container">
+                <div class="forum-sort">
+                    <ul class="nav forum-tabs">
+                        <li class="filterBtn nav-item"><a class="nav-link active" href="#">Recently Post</a></li>
+                        <li class="filterBtn nav-item"><a class="nav-link" href="#">Most Popular</a></li>
+                        <li class="filterBtn nav-item"><a class="nav-link" href="#">Alphabetically</a></li>
+                        <li class="filterBtn nav-item"><a class="nav-link" href="#">Country</a></li>
                     </ul>
-                    <a href="create-forum.html" class="btn-forum-new">Create Forum</a>
+                    <a href="create-forum.html" class="btn-create">Create Forum</a>
                 </div>
-                <hr class="forum-separator">
+                <hr class="seperate-bar">
+            </div>
+        </section>
+
+        <section class="forum-posts">
+            <div class="container">
+                <div class="row g-4">
+                    
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image1 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image2 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image3 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image4 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image5 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image6 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image7 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="unfinishedPost card forum-card image8 h-100">
+                            <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">SearchTesting</h5>
+                                <p class="card-text">₪⚚⟆ᚾ⟠⟁⟐⟒☌⧫⟊⚷⧨Ϟ⟁⟴⚶☍⚛</p> <!-- Testing for search-->
+                                <a href="#" class="forum-read-text">
+                                    Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                        <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card forum-card image9 h-100">
+                            <a href="view-post.html" class="text-decoration-none text-reset">
+                                <div class="forum-img card-img-top" role="img" aria-label="Post image"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Grandmother Curry!</h5>
+                                    <p class="card-text">Old Pot, Warm Heart</p>
+                                    <a href="#" class="forum-read-text">
+                                        Read <iconify-icon class="down" icon="material-symbols:keyboard-arrow-down"></iconify-icon>
+                                            <iconify-icon class="up" icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="mt-4" aria-label="Forum pagination">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-left">
@@ -103,13 +261,14 @@
                 </div>
                 <div class="footer-column">
                     <h3>Community</h3>
-                    <a href="#">Social</a>
+                    <a href="forum.html">Social</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Bootstrap 5 JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

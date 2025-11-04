@@ -2,3 +2,436 @@
     margin-top: 60px;
     padding: 0;
 }
+
+.post-view-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    z-index: 1;
+}
+
+.banner-content {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.banner-title {
+    font-family: 'Geologica', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+
+.post-content-section {
+    background: white;
+    padding: 60px 20px;
+}
+
+.post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post-main {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.post-image-container {
+    flex: 0 0 400px;
+}
+
+.post-food-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 420px;
+    min-height: 420px;
+}
+
+.post-details {
+    flex: 1;
+}
+
+.post-title {
+    font-family: 'Geologica', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 0 0 10px 0;
+}
+
+.post-author {
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+    margin: 0 0 20px 0;
+}
+
+.post-description {
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.post-description p {
+    margin-bottom: 15px;
+}
+
+.post-description p:last-child {
+    margin-bottom: 0;
+}
+
+.post-interactions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn-like {
+    background: #f5f5f5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+.btn-dislike {
+	background: #f5f5f5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+.btn-like {
+    background: #e8f5e9;
+}
+
+.btn-dislike {
+    background: #f5f5f5;
+}
+
+.btn-like:hover {
+    background: #c8e6c9;
+}
+
+.btn-dislike:hover {
+    background: #e0e0e0;
+}
+
+.btn-share {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.btn-share:hover {
+    opacity: 0.7;
+}
+
+.comments-section {
+    background: white;
+    padding: 60px 20px;
+    padding-top: 0;
+}
+
+.comments-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.comments-title {
+    font-family: 'Geologica', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 0 0 40px 0;
+}
+
+/* New Comment Form */
+.new-comment-form {
+    margin-bottom: 40px;
+}
+
+.new-comment-form .position-relative {
+    position: relative;
+}
+
+.comment-textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background: #f7f9fb;
+    padding: 14px;
+    resize: none;
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+}
+
+.comment-textarea:focus {
+    outline: none;
+    border-color: #d4a574;
+    background: #f7f9fb;
+}
+
+.comment-textarea::placeholder {
+    color: #999;
+}
+
+.comment-attachments {
+    display: flex;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    gap: 0;
+}
+
+.attachment-btn {
+    border: none;
+    background: transparent;
+    color: #333;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.attachment-btn:hover {
+    background: #e6e6e6;
+}
+
+.create-form-actions{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.btn-cancel{
+    background: transparent;
+    color: #000;
+    border: 1px solid #8a8a8a;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.btn-cancel:hover{
+    opacity: 0.7;
+    transition: all 0.6s  ease;
+}
+
+.btn-post{
+    background: #d4a574;
+    color: #2c2c2c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.btn-post:hover{
+    background: #d4a574;
+    color: #fff;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.comment-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.comment-avatar {
+    flex-shrink: 0;
+}
+
+.avatar-placeholder {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e0e0e0;
+	background-size:cover;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-header {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.comment-author {
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+.comment-time {
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.comment-text {
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.comment-text p {
+    margin-bottom: 10px;
+}
+
+.comment-text p:last-child {
+    margin-bottom: 0;
+}
+
+.comment-interactions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn-comment-like,
+.btn-comment-dislike {
+    background: transparent;
+    border: none;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2c2c;
+    border-radius: 6px;
+}
+
+.btn-comment-like {
+    background: #e8f5e9;
+}
+
+.btn-comment-dislike {
+    background: #f5f5f5;
+}
+
+.btn-comment-like:hover {
+    background: #c8e6c9;
+}
+
+.btn-comment-dislike:hover {
+    background: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .banner-overlay {
+        padding: 0 30px;
+    }
+    
+    .banner-title {
+        font-size: 40px;
+    }
+    
+    .post-content-section {
+        padding: 40px 15px;
+    }
+    
+    .post-main {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .post-image-container {
+        flex: 1;
+        width: 100%;
+    }
+    
+    .post-title {
+        font-size: 28px;
+    }
+    
+    .comments-section {
+        padding: 40px 15px;
+        padding-top: 0;
+    }
+    
+    .comments-title {
+        font-size: 28px;
+    }
+}

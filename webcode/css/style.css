@@ -11,10 +11,10 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
-
 
 .header {
     background: #2c2c2c;
@@ -44,7 +44,6 @@ body {
     align-items: left;
 }
 
-
 .nav-bar ul {
     display: flex;
     list-style: none;
@@ -65,8 +64,6 @@ body {
 .nav-bar a:hover {
     color: #d4a574;
     font-weight: 500;
-    /* Reminder: Add border bottom later
-        border-bottom: 2px solid #d4a574;*/
 }
 /* Main Content */
 .main-content {
@@ -76,7 +73,8 @@ body {
     padding: 20px;
 }
 
-
+/* I cancel the idea of modal, instead use the window alert for easier control 
+   I still keep this incase usage for later on
 .btn-modal {
     padding: 10px 10px;
     font-size: 14px;
@@ -94,7 +92,7 @@ body {
     background: #c1965f;
     color: white;
 }
-
+*/
 
 .footer {
     background: #2c2c2c;
