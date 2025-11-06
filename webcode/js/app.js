@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.page-link').forEach(btn => {
     btn.addEventListener('click', () => {
-        alert('This will let user filter by "Tags", more will be explain in the report!');
+        alert('This will navigate to next page to display more posts!');
         });
     });
 });
