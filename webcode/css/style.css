@@ -65,34 +65,13 @@ body {
     color: #d4a574;
     font-weight: 500;
 }
-/* Main Content */
+
 .main-content {
     flex: 1;
     background: white;
     margin-top: 80px; 
     padding: 20px;
 }
-
-/* I cancel the idea of modal, instead use the window alert for easier control 
-   I still keep this incase usage for later on
-.btn-modal {
-    padding: 10px 10px;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    border-radius: 16px;
-    transition: all 0.3s ease;
-    min-width: 150px;
-    background: #d4a574;
-    color: #2c2c2c;
-    border: none;
-}
-
-.btn-modal:hover{
-    background: #c1965f;
-    color: white;
-}
-*/
 
 .footer {
     background: #2c2c2c;

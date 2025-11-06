@@ -180,7 +180,6 @@
     color: #c1965f; 
 }
 
-
 .image1 .forum-img { 
     background-image: url('../assets/placeholder.png'); 
 }
@@ -225,6 +224,11 @@
     border: none; 
     color: #2c2c2c; 
 }
+
+.page-link:hover{ 
+    cursor: pointer;
+}
+
 .page-item.active .page-link { 
     background-color: #c1965f; 
     color: #fff; 

@@ -144,41 +144,40 @@
 .featured-image {
     height: 100%;
     min-height: 500px;
-    /* TODO: Add featured post background image here */
-    /* background-image: url(../assets/placeholder.png); */
-    background-color: #e0e0e0; /* Temporary placeholder */
+    background-image: url(../assets/placeholder.png);
+    background-color: #e0e0e0; 
     background-size: cover;
     background-position: center;
 }
 
 .regular-image1 {
     height: 200px;
-    /* TODO: Add regular post background image here */
-    background-color: #e0e0e0; /* Temporary placeholder */
+    background: url("../assets/banhxeo.png");
+    background-color: #e0e0e0; 
     background-size: cover;
     background-position: center;
 }
 
 .regular-image2 {
     height: 200px;
-    /* TODO: Add regular post background image here */
-    background-color: #e0e0e0; /* Temporary placeholder */
+    background: url("../assets/banhxeo.png");
+    background-color: #e0e0e0; 
     background-size: cover;
     background-position: center;
 }
 
 .regular-image3 {
     height: 200px;
-    /* TODO: Add regular post background image here */
-    background-color: #e0e0e0; /* Temporary placeholder */
+    background: url("../assets/banhxeo.png");
+    background-color: #e0e0e0;
     background-size: cover;
     background-position: center;
 }
 
 .regular-image4 {
     height: 200px;
-    /* TODO: Add regular post background image here */
-    background-color: #e0e0e0; /* Temporary placeholder */
+    background: url("../assets/banhxeo.png");
+    background-color: #e0e0e0;
     background-size: cover;
     background-position: center;
 }
